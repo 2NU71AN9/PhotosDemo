@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0093AEA1E9B2A1900F033E4 /* QPPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0093AE81E9B2A1900F033E4 /* QPPickerCell.swift */; };
+		F0093AEB1E9B2A1900F033E4 /* QPPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0093AE91E9B2A1900F033E4 /* QPPickerCell.xib */; };
+		F0093AED1E9B2CF000F033E4 /* QPSinglePhotoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0093AEC1E9B2CF000F033E4 /* QPSinglePhotoPreviewViewController.swift */; };
+		F04D0DD81E9645D200AA428C /* QPPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DB31E9645D200AA428C /* QPPhotoModel.swift */; };
+		F04D0DDC1E9645D200AA428C /* QPPhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DB91E9645D200AA428C /* QPPhotoPickerView.swift */; };
+		F04D0DDE1E9645D200AA428C /* image_add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F04D0DBD1E9645D200AA428C /* image_add@3x.png */; };
+		F04D0DDF1E9645D200AA428C /* image_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F04D0DBE1E9645D200AA428C /* image_select@2x.png */; };
+		F04D0DE01E9645D200AA428C /* image_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F04D0DBF1E9645D200AA428C /* image_select@3x.png */; };
+		F04D0DE11E9645D200AA428C /* navi_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F04D0DC01E9645D200AA428C /* navi_back@2x.png */; };
+		F04D0DE21E9645D200AA428C /* picture_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F04D0DC11E9645D200AA428C /* picture_select@2x.png */; };
+		F04D0DE31E9645D200AA428C /* picture_unselect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F04D0DC21E9645D200AA428C /* picture_unselect@2x.png */; };
+		F04D0DE41E9645D200AA428C /* PhotoImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DC31E9645D200AA428C /* PhotoImageManager.swift */; };
+		F04D0DE51E9645D200AA428C /* PhotoPickerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DC41E9645D200AA428C /* PhotoPickerConfig.swift */; };
+		F04D0DE61E9645D200AA428C /* QPPhotoPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DC61E9645D200AA428C /* QPPhotoPreviewCell.swift */; };
+		F04D0DE71E9645D200AA428C /* QPPhotoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DC71E9645D200AA428C /* QPPhotoPreviewViewController.swift */; };
+		F04D0DE81E9645D200AA428C /* QPPhotoFetchOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DCA1E9645D200AA428C /* QPPhotoFetchOptions.swift */; };
+		F04D0DE91E9645D200AA428C /* QPPhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DCB1E9645D200AA428C /* QPPhotoListViewController.swift */; };
+		F04D0DEA1E9645D200AA428C /* QPPhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DCC1E9645D200AA428C /* QPPhotoPickerViewController.swift */; };
+		F04D0DEB1E9645D200AA428C /* QPPhotoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DCF1E9645D200AA428C /* QPPhotoListCell.swift */; };
+		F04D0DEC1E9645D200AA428C /* QPPhotoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04D0DD01E9645D200AA428C /* QPPhotoListCell.xib */; };
+		F04D0DED1E9645D200AA428C /* QPPhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DD31E9645D200AA428C /* QPPhotoCollectionViewController.swift */; };
+		F04D0DEE1E9645D200AA428C /* QPPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DD61E9645D200AA428C /* QPPhotoCell.swift */; };
+		F04D0DEF1E9645D200AA428C /* QPPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04D0DD71E9645D200AA428C /* QPPhotoCell.xib */; };
+		F04D0DF31E96475A00AA428C /* AlbumToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DF01E96475A00AA428C /* AlbumToolbarView.swift */; };
+		F04D0DF41E96475A00AA428C /* PhotoPreviewBottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DF11E96475A00AA428C /* PhotoPreviewBottomBarView.swift */; };
+		F04D0DF51E96475A00AA428C /* PhotoPreviewToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D0DF21E96475A00AA428C /* PhotoPreviewToolbarView.swift */; };
+		F061DC1B1E9775E10070D557 /* QPPhotoDataAndImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061DC1A1E9775E10070D557 /* QPPhotoDataAndImage.swift */; };
+		F061DC241E979CC40070D557 /* QPPhotoImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061DC231E979CC40070D557 /* QPPhotoImageModel.swift */; };
+		F0B0DF151E94A2F100C9B5E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0DF141E94A2F100C9B5E3 /* AppDelegate.swift */; };
+		F0B0DF171E94A2F100C9B5E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0DF161E94A2F100C9B5E3 /* ViewController.swift */; };
+		F0B0DF1A1E94A2F100C9B5E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B0DF181E94A2F100C9B5E3 /* Main.storyboard */; };
+		F0B0DF1C1E94A2F100C9B5E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B0DF1B1E94A2F100C9B5E3 /* Assets.xcassets */; };
+		F0B0DF1F1E94A2F100C9B5E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B0DF1D1E94A2F100C9B5E3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0093AE81E9B2A1900F033E4 /* QPPickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPickerCell.swift; sourceTree = "<group>"; };
+		F0093AE91E9B2A1900F033E4 /* QPPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QPPickerCell.xib; sourceTree = "<group>"; };
+		F0093AEC1E9B2CF000F033E4 /* QPSinglePhotoPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPSinglePhotoPreviewViewController.swift; sourceTree = "<group>"; };
+		F04D0DB31E9645D200AA428C /* QPPhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPhotoModel.swift; sourceTree = "<group>"; };
+		F04D0DB91E9645D200AA428C /* QPPhotoPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPhotoPickerView.swift; sourceTree = "<group>"; };
+		F04D0DBD1E9645D200AA428C /* image_add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_add@3x.png"; sourceTree = "<group>"; };
+		F04D0DBE1E9645D200AA428C /* image_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_select@2x.png"; sourceTree = "<group>"; };
+		F04D0DBF1E9645D200AA428C /* image_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_select@3x.png"; sourceTree = "<group>"; };
+		F04D0DC01E9645D200AA428C /* navi_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_back@2x.png"; sourceTree = "<group>"; };
+		F04D0DC11E9645D200AA428C /* picture_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picture_select@2x.png"; sourceTree = "<group>"; };
+		F04D0DC21E9645D200AA428C /* picture_unselect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picture_unselect@2x.png"; sourceTree = "<group>"; };
+		F04D0DC31E9645D200AA428C /* PhotoImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoImageManager.swift; sourceTree = "<group>"; };
+		F04D0DC41E9645D200AA428C /* PhotoPickerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerConfig.swift; sourceTree = "<group>"; };
+		F04D0DC61E9645D200AA428C /* QPPhotoPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPhotoPreviewCell.swift; sourceTree = "<group>"; };
+		F04D0DC71E9645D200AA428C /* QPPhotoPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPhotoPreviewViewController.swift; sourceTree = "<group>"; };
+		F04D0DCA1E9645D200AA428C /* QPPhotoFetchOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPhotoFetchOptions.swift; sourceTree = "<group>"; };
+		F04D0DCB1E9645D200AA428C /* QPPhotoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPhotoListViewController.swift; sourceTree = "<group>"; };
+		F04D0DCC1E9645D200AA428C /* QPPhotoPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPhotoPickerViewController.swift; sourceTree = "<group>"; };
+		F04D0DCF1E9645D200AA428C /* QPPhotoListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPhotoListCell.swift; sourceTree = "<group>"; };
+		F04D0DD01E9645D200AA428C /* QPPhotoListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QPPhotoListCell.xib; sourceTree = "<group>"; };
+		F04D0DD31E9645D200AA428C /* QPPhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		F04D0DD61E9645D200AA428C /* QPPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPhotoCell.swift; sourceTree = "<group>"; };
+		F04D0DD71E9645D200AA428C /* QPPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QPPhotoCell.xib; sourceTree = "<group>"; };
+		F04D0DF01E96475A00AA428C /* AlbumToolbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumToolbarView.swift; sourceTree = "<group>"; };
+		F04D0DF11E96475A00AA428C /* PhotoPreviewBottomBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPreviewBottomBarView.swift; sourceTree = "<group>"; };
+		F04D0DF21E96475A00AA428C /* PhotoPreviewToolbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPreviewToolbarView.swift; sourceTree = "<group>"; };
+		F061DC1A1E9775E10070D557 /* QPPhotoDataAndImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPhotoDataAndImage.swift; sourceTree = "<group>"; };
+		F061DC231E979CC40070D557 /* QPPhotoImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPPhotoImageModel.swift; sourceTree = "<group>"; };
+		F0B0DF111E94A2F100C9B5E3 /* QPPhotoPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QPPhotoPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B0DF141E94A2F100C9B5E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0B0DF161E94A2F100C9B5E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0B0DF191E94A2F100C9B5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0B0DF1B1E94A2F100C9B5E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0B0DF1E1E94A2F100C9B5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0B0DF201E94A2F100C9B5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0B0DF0E1E94A2F100C9B5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F04D0DB11E9645D200AA428C /* QPPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F04D0DB21E9645D200AA428C /* Model */,
+				F04D0DB41E9645D200AA428C /* View */,
+				F04D0DBB1E9645D200AA428C /* 相册 */,
+			);
+			path = QPPhotoPicker;
+			sourceTree = "<group>";
+		};
+		F04D0DB21E9645D200AA428C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F04D0DB31E9645D200AA428C /* QPPhotoModel.swift */,
+				F061DC231E979CC40070D557 /* QPPhotoImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F04D0DB41E9645D200AA428C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F04D0DB61E9645D200AA428C /* Cell */,
+				F04D0DB91E9645D200AA428C /* QPPhotoPickerView.swift */,
+				F0093AEC1E9B2CF000F033E4 /* QPSinglePhotoPreviewViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F04D0DB61E9645D200AA428C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F0093AE81E9B2A1900F033E4 /* QPPickerCell.swift */,
+				F0093AE91E9B2A1900F033E4 /* QPPickerCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F04D0DBB1E9645D200AA428C /* 相册 */ = {
+			isa = PBXGroup;
+			children = (
+				F04D0DBC1E9645D200AA428C /* image */,
+				F04D0DC51E9645D200AA428C /* 照片详情 */,
+				F04D0DC81E9645D200AA428C /* 相册列表 */,
+				F04D0DD11E9645D200AA428C /* 相册详情 */,
+				F04D0DC31E9645D200AA428C /* PhotoImageManager.swift */,
+				F061DC1A1E9775E10070D557 /* QPPhotoDataAndImage.swift */,
+				F04D0DC41E9645D200AA428C /* PhotoPickerConfig.swift */,
+				F04D0DF01E96475A00AA428C /* AlbumToolbarView.swift */,
+				F04D0DF11E96475A00AA428C /* PhotoPreviewBottomBarView.swift */,
+				F04D0DF21E96475A00AA428C /* PhotoPreviewToolbarView.swift */,
+			);
+			path = "相册";
+			sourceTree = "<group>";
+		};
+		F04D0DBC1E9645D200AA428C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F04D0DBD1E9645D200AA428C /* image_add@3x.png */,
+				F04D0DBE1E9645D200AA428C /* image_select@2x.png */,
+				F04D0DBF1E9645D200AA428C /* image_select@3x.png */,
+				F04D0DC01E9645D200AA428C /* navi_back@2x.png */,
+				F04D0DC11E9645D200AA428C /* picture_select@2x.png */,
+				F04D0DC21E9645D200AA428C /* picture_unselect@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		F04D0DC51E9645D200AA428C /* 照片详情 */ = {
+			isa = PBXGroup;
+			children = (
+				F04D0DC61E9645D200AA428C /* QPPhotoPreviewCell.swift */,
+				F04D0DC71E9645D200AA428C /* QPPhotoPreviewViewController.swift */,
+			);
+			path = "照片详情";
+			sourceTree = "<group>";
+		};
+		F04D0DC81E9645D200AA428C /* 相册列表 */ = {
+			isa = PBXGroup;
+			children = (
+				F04D0DC91E9645D200AA428C /* Model */,
+				F04D0DCA1E9645D200AA428C /* QPPhotoFetchOptions.swift */,
+				F04D0DCB1E9645D200AA428C /* QPPhotoListViewController.swift */,
+				F04D0DCC1E9645D200AA428C /* QPPhotoPickerViewController.swift */,
+				F04D0DCD1E9645D200AA428C /* View */,
+			);
+			path = "相册列表";
+			sourceTree = "<group>";
+		};
+		F04D0DC91E9645D200AA428C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F04D0DCD1E9645D200AA428C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F04D0DCE1E9645D200AA428C /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F04D0DCE1E9645D200AA428C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F04D0DCF1E9645D200AA428C /* QPPhotoListCell.swift */,
+				F04D0DD01E9645D200AA428C /* QPPhotoListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F04D0DD11E9645D200AA428C /* 相册详情 */ = {
+			isa = PBXGroup;
+			children = (
+				F04D0DD21E9645D200AA428C /* Model */,
+				F04D0DD41E9645D200AA428C /* View */,
+				F04D0DD31E9645D200AA428C /* QPPhotoCollectionViewController.swift */,
+			);
+			path = "相册详情";
+			sourceTree = "<group>";
+		};
+		F04D0DD21E9645D200AA428C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F04D0DD41E9645D200AA428C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F04D0DD51E9645D200AA428C /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F04D0DD51E9645D200AA428C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F04D0DD61E9645D200AA428C /* QPPhotoCell.swift */,
+				F04D0DD71E9645D200AA428C /* QPPhotoCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F0B0DF081E94A2F100C9B5E3 = {
+			isa = PBXGroup;
+			children = (
+				F04D0DB11E9645D200AA428C /* QPPhotoPicker */,
+				F0B0DF131E94A2F100C9B5E3 /* QPPhotoPickerDemo */,
+				F0B0DF121E94A2F100C9B5E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0B0DF121E94A2F100C9B5E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0B0DF111E94A2F100C9B5E3 /* QPPhotoPickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0B0DF131E94A2F100C9B5E3 /* QPPhotoPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F0B0DF141E94A2F100C9B5E3 /* AppDelegate.swift */,
+				F0B0DF161E94A2F100C9B5E3 /* ViewController.swift */,
+				F0B0DF181E94A2F100C9B5E3 /* Main.storyboard */,
+				F0B0DF1B1E94A2F100C9B5E3 /* Assets.xcassets */,
+				F0B0DF1D1E94A2F100C9B5E3 /* LaunchScreen.storyboard */,
+				F0B0DF201E94A2F100C9B5E3 /* Info.plist */,
+			);
+			path = QPPhotoPickerDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0B0DF101E94A2F100C9B5E3 /* QPPhotoPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B0DF231E94A2F100C9B5E3 /* Build configuration list for PBXNativeTarget "QPPhotoPickerDemo" */;
+			buildPhases = (
+				F0B0DF0D1E94A2F100C9B5E3 /* Sources */,
+				F0B0DF0E1E94A2F100C9B5E3 /* Frameworks */,
+				F0B0DF0F1E94A2F100C9B5E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QPPhotoPickerDemo;
+			productName = QPPhotoPickerDemo;
+			productReference = F0B0DF111E94A2F100C9B5E3 /* QPPhotoPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0B0DF091E94A2F100C9B5E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = qp;
+				TargetAttributes = {
+					F0B0DF101E94A2F100C9B5E3 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Q96N4NTW3X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F0B0DF0C1E94A2F100C9B5E3 /* Build configuration list for PBXProject "QPPhotoPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0B0DF081E94A2F100C9B5E3;
+			productRefGroup = F0B0DF121E94A2F100C9B5E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0B0DF101E94A2F100C9B5E3 /* QPPhotoPickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0B0DF0F1E94A2F100C9B5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04D0DE11E9645D200AA428C /* navi_back@2x.png in Resources */,
+				F04D0DEF1E9645D200AA428C /* QPPhotoCell.xib in Resources */,
+				F0B0DF1F1E94A2F100C9B5E3 /* LaunchScreen.storyboard in Resources */,
+				F04D0DDE1E9645D200AA428C /* image_add@3x.png in Resources */,
+				F0093AEB1E9B2A1900F033E4 /* QPPickerCell.xib in Resources */,
+				F04D0DE31E9645D200AA428C /* picture_unselect@2x.png in Resources */,
+				F0B0DF1C1E94A2F100C9B5E3 /* Assets.xcassets in Resources */,
+				F04D0DDF1E9645D200AA428C /* image_select@2x.png in Resources */,
+				F04D0DE21E9645D200AA428C /* picture_select@2x.png in Resources */,
+				F04D0DEC1E9645D200AA428C /* QPPhotoListCell.xib in Resources */,
+				F0B0DF1A1E94A2F100C9B5E3 /* Main.storyboard in Resources */,
+				F04D0DE01E9645D200AA428C /* image_select@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0B0DF0D1E94A2F100C9B5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04D0DF31E96475A00AA428C /* AlbumToolbarView.swift in Sources */,
+				F04D0DE61E9645D200AA428C /* QPPhotoPreviewCell.swift in Sources */,
+				F04D0DF51E96475A00AA428C /* PhotoPreviewToolbarView.swift in Sources */,
+				F04D0DE41E9645D200AA428C /* PhotoImageManager.swift in Sources */,
+				F0B0DF171E94A2F100C9B5E3 /* ViewController.swift in Sources */,
+				F04D0DED1E9645D200AA428C /* QPPhotoCollectionViewController.swift in Sources */,
+				F04D0DE71E9645D200AA428C /* QPPhotoPreviewViewController.swift in Sources */,
+				F0B0DF151E94A2F100C9B5E3 /* AppDelegate.swift in Sources */,
+				F061DC1B1E9775E10070D557 /* QPPhotoDataAndImage.swift in Sources */,
+				F0093AEA1E9B2A1900F033E4 /* QPPickerCell.swift in Sources */,
+				F04D0DEB1E9645D200AA428C /* QPPhotoListCell.swift in Sources */,
+				F0093AED1E9B2CF000F033E4 /* QPSinglePhotoPreviewViewController.swift in Sources */,
+				F04D0DD81E9645D200AA428C /* QPPhotoModel.swift in Sources */,
+				F04D0DE91E9645D200AA428C /* QPPhotoListViewController.swift in Sources */,
+				F061DC241E979CC40070D557 /* QPPhotoImageModel.swift in Sources */,
+				F04D0DEA1E9645D200AA428C /* QPPhotoPickerViewController.swift in Sources */,
+				F04D0DE81E9645D200AA428C /* QPPhotoFetchOptions.swift in Sources */,
+				F04D0DF41E96475A00AA428C /* PhotoPreviewBottomBarView.swift in Sources */,
+				F04D0DE51E9645D200AA428C /* PhotoPickerConfig.swift in Sources */,
+				F04D0DDC1E9645D200AA428C /* QPPhotoPickerView.swift in Sources */,
+				F04D0DEE1E9645D200AA428C /* QPPhotoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0B0DF181E94A2F100C9B5E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0B0DF191E94A2F100C9B5E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0B0DF1D1E94A2F100C9B5E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0B0DF1E1E94A2F100C9B5E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0B0DF211E94A2F100C9B5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0B0DF221E94A2F100C9B5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0B0DF241E94A2F100C9B5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q96N4NTW3X;
+				INFOPLIST_FILE = QPPhotoPickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianpu.QPPhotoPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F0B0DF251E94A2F100C9B5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q96N4NTW3X;
+				INFOPLIST_FILE = QPPhotoPickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianpu.QPPhotoPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0B0DF0C1E94A2F100C9B5E3 /* Build configuration list for PBXProject "QPPhotoPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B0DF211E94A2F100C9B5E3 /* Debug */,
+				F0B0DF221E94A2F100C9B5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B0DF231E94A2F100C9B5E3 /* Build configuration list for PBXNativeTarget "QPPhotoPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B0DF241E94A2F100C9B5E3 /* Debug */,
+				F0B0DF251E94A2F100C9B5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0B0DF091E94A2F100C9B5E3 /* Project object */;
+}

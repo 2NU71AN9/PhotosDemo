@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_6475" translatesAutoresizingMaskIntoConstraints="NO" id="fVH-Yg-PKp">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="9LS-Um-LA5"/>
+                                    <constraint firstAttribute="height" constant="133.40000000000001" id="ARg-8Q-SXX"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtb-EG-Lbx">
+                                <state key="normal" title="保存"/>
+                                <connections>
+                                    <action selector="savePhoto" destination="BYZ-38-t0r" eventType="touchUpInside" id="LM3-ff-980"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fVH-Yg-PKp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0dP-kc-bSH"/>
+                            <constraint firstItem="jtb-EG-Lbx" firstAttribute="top" secondItem="fVH-Yg-PKp" secondAttribute="bottom" constant="59" id="66Q-ku-hhp"/>
+                            <constraint firstItem="fVH-Yg-PKp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wBX-OW-dfQ"/>
+                            <constraint firstItem="jtb-EG-Lbx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zhy-G6-dXF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Photo" destination="fVH-Yg-PKp" id="g94-Sm-Vse"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_6475" width="1000" height="667"/>
+    </resources>
+</document>

@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C230A6C6B6C03A47BB564A208EE61E /* JPFPSStatus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61FAB9710460C73E136DBD27CD045A25 /* JPFPSStatus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E2D076BE37FAACBB7AB41885FE96AC9 /* Pods-HBPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2130927E10EFADBE83D99CDD7B7542DC /* Pods-HBPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30B6D8CD22CFCD310538556AF67E75FF /* JPFPSStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 139143096ED128CD499143DA03EB6D33 /* JPFPSStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DCFA3105C467183D27914687F6ED766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		529BFDC7166DFCA7B5B07828F2F9145A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		7DBFA2E512BC2D12F551630FAD1E3978 /* JPFPSStatus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF21BCD0CE69CB38F69947AD8B2770 /* JPFPSStatus-dummy.m */; };
+		7DC1A1FDDE1083620D97B3FF7B243DE8 /* Pods-HBPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6F7361CA1D120027562CE2D8EC7420 /* Pods-HBPhotoBrowser-dummy.m */; };
+		C96A333A7BCFB3D2EC7BA5214D0EA436 /* JPFPSStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E0728AE6211109BB43403AEF3074D6 /* JPFPSStatus.m */; };
+		E354060E88643BD47BDA5D4BA0C14C80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		315463F3169723ABB30BE0EE00151DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC7D1ED0FF360BE563712FB2B490AAD8;
+			remoteInfo = JPFPSStatus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CBCD9D94307B43F7BB16391B7CE4F60 /* JPFPSStatus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JPFPSStatus.modulemap; sourceTree = "<group>"; };
+		11796C7C45ED77182EF156C80413220B /* Pods-HBPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HBPhotoBrowser.modulemap"; sourceTree = "<group>"; };
+		139143096ED128CD499143DA03EB6D33 /* JPFPSStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPFPSStatus.h; path = JPFPSStatus/JPFPSStatus/JPFPSStatus.h; sourceTree = "<group>"; };
+		1A6F7361CA1D120027562CE2D8EC7420 /* Pods-HBPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
+		2130927E10EFADBE83D99CDD7B7542DC /* Pods-HBPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
+		2831404E835FD69C9D74A0CC53380DA3 /* JPFPSStatus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPFPSStatus.xcconfig; sourceTree = "<group>"; };
+		4C2F94049A547F1E08AF98B7394424A7 /* Pods-HBPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		52E0728AE6211109BB43403AEF3074D6 /* JPFPSStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPFPSStatus.m; path = JPFPSStatus/JPFPSStatus/JPFPSStatus.m; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61FAB9710460C73E136DBD27CD045A25 /* JPFPSStatus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPFPSStatus-umbrella.h"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		85797A426DA6502BCE6550507BE32823 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9162B18D30C8A541290D7D9FF0C8EB23 /* Pods-HBPhotoBrowser-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBPhotoBrowser-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96AA6CF8C52B06BA285C39380563B350 /* Pods_HBPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBPhotoBrowser.framework; path = "Pods-HBPhotoBrowser.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0B4E20B0895B73A34863485C548B19 /* JPFPSStatus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JPFPSStatus.framework; path = JPFPSStatus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDF21BCD0CE69CB38F69947AD8B2770 /* JPFPSStatus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPFPSStatus-dummy.m"; sourceTree = "<group>"; };
+		CF1407ABAB31F004BB3EFDEE4F9E1EED /* JPFPSStatus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPFPSStatus-prefix.pch"; sourceTree = "<group>"; };
+		D42572BF1436583C68F212D167BBD090 /* Pods-HBPhotoBrowser-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBPhotoBrowser-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBF07CC2D50C25D518E6532FC6DEBC98 /* Pods-HBPhotoBrowser-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBPhotoBrowser-resources.sh"; sourceTree = "<group>"; };
+		DCCE9DD3B66527CD971EFD643F803FE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AB1BF6D1B09CC967AFC48B199C1993 /* Pods-HBPhotoBrowser-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBPhotoBrowser-frameworks.sh"; sourceTree = "<group>"; };
+		F5CB8BF317684A79BD3A4D141BE1DCF7 /* Pods-HBPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63565D9EDBFFB358C8D2821E6492E9C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529BFDC7166DFCA7B5B07828F2F9145A /* Foundation.framework in Frameworks */,
+				E354060E88643BD47BDA5D4BA0C14C80 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71451B24C7F7C2B455502390EA8EF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCFA3105C467183D27914687F6ED766 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		622FB364959505E1FFB65784D6CB74F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0B4E20B0895B73A34863485C548B19 /* JPFPSStatus.framework */,
+				96AA6CF8C52B06BA285C39380563B350 /* Pods_HBPhotoBrowser.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77770D94EC6F4A442D35771A3112A1FB /* Pods-HBPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				85797A426DA6502BCE6550507BE32823 /* Info.plist */,
+				11796C7C45ED77182EF156C80413220B /* Pods-HBPhotoBrowser.modulemap */,
+				D42572BF1436583C68F212D167BBD090 /* Pods-HBPhotoBrowser-acknowledgements.markdown */,
+				9162B18D30C8A541290D7D9FF0C8EB23 /* Pods-HBPhotoBrowser-acknowledgements.plist */,
+				1A6F7361CA1D120027562CE2D8EC7420 /* Pods-HBPhotoBrowser-dummy.m */,
+				E0AB1BF6D1B09CC967AFC48B199C1993 /* Pods-HBPhotoBrowser-frameworks.sh */,
+				DBF07CC2D50C25D518E6532FC6DEBC98 /* Pods-HBPhotoBrowser-resources.sh */,
+				2130927E10EFADBE83D99CDD7B7542DC /* Pods-HBPhotoBrowser-umbrella.h */,
+				4C2F94049A547F1E08AF98B7394424A7 /* Pods-HBPhotoBrowser.debug.xcconfig */,
+				F5CB8BF317684A79BD3A4D141BE1DCF7 /* Pods-HBPhotoBrowser.release.xcconfig */,
+			);
+			name = "Pods-HBPhotoBrowser";
+			path = "Target Support Files/Pods-HBPhotoBrowser";
+			sourceTree = "<group>";
+		};
+		78B3CDBC9E0311806DBAA16762849D69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98B20C2159150A8C9C4C93B9D08EA473 /* JPFPSStatus */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				78B3CDBC9E0311806DBAA16762849D69 /* Pods */,
+				622FB364959505E1FFB65784D6CB74F1 /* Products */,
+				B702C2368DB87ACAABCCF24A60804435 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DEAD411A6A52878DB5F50FA6AAADDE0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCCE9DD3B66527CD971EFD643F803FE1 /* Info.plist */,
+				0CBCD9D94307B43F7BB16391B7CE4F60 /* JPFPSStatus.modulemap */,
+				2831404E835FD69C9D74A0CC53380DA3 /* JPFPSStatus.xcconfig */,
+				BEDF21BCD0CE69CB38F69947AD8B2770 /* JPFPSStatus-dummy.m */,
+				CF1407ABAB31F004BB3EFDEE4F9E1EED /* JPFPSStatus-prefix.pch */,
+				61FAB9710460C73E136DBD27CD045A25 /* JPFPSStatus-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JPFPSStatus";
+			sourceTree = "<group>";
+		};
+		98B20C2159150A8C9C4C93B9D08EA473 /* JPFPSStatus */ = {
+			isa = PBXGroup;
+			children = (
+				139143096ED128CD499143DA03EB6D33 /* JPFPSStatus.h */,
+				52E0728AE6211109BB43403AEF3074D6 /* JPFPSStatus.m */,
+				7DEAD411A6A52878DB5F50FA6AAADDE0 /* Support Files */,
+			);
+			name = JPFPSStatus;
+			path = JPFPSStatus;
+			sourceTree = "<group>";
+		};
+		B702C2368DB87ACAABCCF24A60804435 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77770D94EC6F4A442D35771A3112A1FB /* Pods-HBPhotoBrowser */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BBCED8B838C313ABC2655C0C9C88F4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2D076BE37FAACBB7AB41885FE96AC9 /* Pods-HBPhotoBrowser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50533CE8FE680E71B32C0279B7A229F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C230A6C6B6C03A47BB564A208EE61E /* JPFPSStatus-umbrella.h in Headers */,
+				30B6D8CD22CFCD310538556AF67E75FF /* JPFPSStatus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		741C11753D9DAFCB9BCF5CA6E3B6E7FD /* Pods-HBPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BC1F2D31FF7A12D05BB3DFCF3060AA /* Build configuration list for PBXNativeTarget "Pods-HBPhotoBrowser" */;
+			buildPhases = (
+				A6B6911469D500AC8E4AF75073E6C8D9 /* Sources */,
+				D71451B24C7F7C2B455502390EA8EF59 /* Frameworks */,
+				0BBCED8B838C313ABC2655C0C9C88F4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B535DCA694040B491E1E23A3EF102B24 /* PBXTargetDependency */,
+			);
+			name = "Pods-HBPhotoBrowser";
+			productName = "Pods-HBPhotoBrowser";
+			productReference = 96AA6CF8C52B06BA285C39380563B350 /* Pods_HBPhotoBrowser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC7D1ED0FF360BE563712FB2B490AAD8 /* JPFPSStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D10AF70CD65049F3EB32F5FA191BB8 /* Build configuration list for PBXNativeTarget "JPFPSStatus" */;
+			buildPhases = (
+				BB3F1DC0C00E6BBA6940B876C1630602 /* Sources */,
+				63565D9EDBFFB358C8D2821E6492E9C1 /* Frameworks */,
+				50533CE8FE680E71B32C0279B7A229F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPFPSStatus;
+			productName = JPFPSStatus;
+			productReference = AC0B4E20B0895B73A34863485C548B19 /* JPFPSStatus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 622FB364959505E1FFB65784D6CB74F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC7D1ED0FF360BE563712FB2B490AAD8 /* JPFPSStatus */,
+				741C11753D9DAFCB9BCF5CA6E3B6E7FD /* Pods-HBPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B6911469D500AC8E4AF75073E6C8D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC1A1FDDE1083620D97B3FF7B243DE8 /* Pods-HBPhotoBrowser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3F1DC0C00E6BBA6940B876C1630602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DBFA2E512BC2D12F551630FAD1E3978 /* JPFPSStatus-dummy.m in Sources */,
+				C96A333A7BCFB3D2EC7BA5214D0EA436 /* JPFPSStatus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B535DCA694040B491E1E23A3EF102B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPFPSStatus;
+			target = AC7D1ED0FF360BE563712FB2B490AAD8 /* JPFPSStatus */;
+			targetProxy = 315463F3169723ABB30BE0EE00151DF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A2E0244108EB1C59303B41C76155F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2831404E835FD69C9D74A0CC53380DA3 /* JPFPSStatus.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JPFPSStatus/JPFPSStatus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JPFPSStatus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JPFPSStatus/JPFPSStatus.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JPFPSStatus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A4B251DB0361B66DDB33C4DB423D756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5CB8BF317684A79BD3A4D141BE1DCF7 /* Pods-HBPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HBPhotoBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBPhotoBrowser/Pods-HBPhotoBrowser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HBPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8DE57AB148A55704C86B9128472A962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2831404E835FD69C9D74A0CC53380DA3 /* JPFPSStatus.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JPFPSStatus/JPFPSStatus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JPFPSStatus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JPFPSStatus/JPFPSStatus.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JPFPSStatus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B102D6C536E53C6E7B96AB57B56B3F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2F94049A547F1E08AF98B7394424A7 /* Pods-HBPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HBPhotoBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBPhotoBrowser/Pods-HBPhotoBrowser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HBPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25D10AF70CD65049F3EB32F5FA191BB8 /* Build configuration list for PBXNativeTarget "JPFPSStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2E0244108EB1C59303B41C76155F8F /* Debug */,
+				A8DE57AB148A55704C86B9128472A962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BC1F2D31FF7A12D05BB3DFCF3060AA /* Build configuration list for PBXNativeTarget "Pods-HBPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B102D6C536E53C6E7B96AB57B56B3F7E /* Debug */,
+				8A4B251DB0361B66DDB33C4DB423D756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
